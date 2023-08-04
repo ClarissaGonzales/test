@@ -1,0 +1,39 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-description div h2{
+    text-align: center;
+}
+.product-description img{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+}
+.size-table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 50px;
+}
+.table-header{
+    border-bottom: 2px solid black;
+}
+.table-body tr{
+    border-bottom: 1px solid black;
+}
+.table-body tr:last-child{
+    border-bottom: none;
+}
+.table-body tr:hover{
+    background-color: rgb(241, 241, 241);
+}
+.cm{
+    color: rgb(44, 44, 44);
+    font-size: 14px;
+    margin-left: 2px;
+}
